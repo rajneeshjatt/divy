@@ -1,0 +1,46 @@
+package Academy;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class HomapageTest {
+	
+	LandingPageObj lp;
+	WebDriver driver;
+	
+	@Test
+	public void closingNewsPopup() {
+		
+		System.setProperty("webdriver.chrome.driver", "H:\\DivyAutomation\\ToolsNlibrary\\chromedriver.exe");
+
+		driver = new ChromeDriver();
+		driver.get("http://www.qaclickacademy.com/");
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		lp = new LandingPageObj(driver);
+		try {
+			Thread.sleep(500000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		lp.closeNewsletterPopup();
+		
+		
+		
+		System.out.println("Hello World");
+	}
+
+	
+//	@Test
+//	public void testingmvn1() {
+//		
+//		System.out.println("div");
+//	}
+
+
+}

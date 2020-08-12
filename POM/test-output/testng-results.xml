@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12947" started-at="2020-05-15T11:04:49Z" finished-at="2020-05-15T11:05:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12947" started-at="2020-05-15T11:04:49Z" finished-at="2020-05-15T11:05:02Z">
+      <class name="TestCases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.LoginTest@4520ebad]" name="setup" is-config="true" duration-ms="10355" started-at="2020-05-15T11:04:49Z" finished-at="2020-05-15T11:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:TestCases.LoginTest@4520ebad]" name="test_Home_Page_Appear_Correct" duration-ms="2564" started-at="2020-05-15T11:04:59Z" finished-at="2020-05-15T11:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

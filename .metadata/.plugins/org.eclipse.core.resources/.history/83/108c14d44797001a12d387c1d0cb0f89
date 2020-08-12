@@ -1,0 +1,15 @@
+package Academy;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class LandingPageObj {
+
+	@FindBy(xpath="//div[@class='sumome-react-svg-image-container']")
+	WebElement join_newsletter_popup;	
+	
+	public void closeNewsletterPopup() {
+		
+		join_newsletter_popup.click();
+	}
+}

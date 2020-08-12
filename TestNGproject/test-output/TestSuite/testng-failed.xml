@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="1" name="Test(failed)">
+    <parameter name="SearchValue" value="India"/>
+    <classes>
+      <class name="Parameterization.ParameterAnnotationWithTestNGxml">
+        <methods>
+          <include name="VerifySearchKey" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Parameterization.ParameterAnnotationWithTestNGxml -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

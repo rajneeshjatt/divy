@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45" started-at="2020-04-25T09:48:51Z" finished-at="2020-04-25T09:48:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45" started-at="2020-04-25T09:48:51Z" finished-at="2020-04-25T09:48:51Z">
+      <class name="test.java.NewTest">
+        <test-method status="PASS" signature="B_Test()[pri:0, instance:test.java.NewTest@23ceabc1]" name="B_Test" duration-ms="11" started-at="2020-04-25T15:18:51Z" finished-at="2020-04-25T15:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_Test -->
+        <test-method status="PASS" signature="C_Test()[pri:0, instance:test.java.NewTest@23ceabc1]" name="C_Test" duration-ms="2" started-at="2020-04-25T15:18:51Z" finished-at="2020-04-25T15:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_Test -->
+        <test-method status="PASS" signature="A_Test()[pri:0, instance:test.java.NewTest@23ceabc1]" name="A_Test" duration-ms="3" started-at="2020-04-25T15:18:51Z" finished-at="2020-04-25T15:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_Test -->
+        <test-method status="PASS" signature="A_Test()[pri:0, instance:test.java.NewTest@23ceabc1]" name="A_Test" duration-ms="1" started-at="2020-04-25T15:18:51Z" finished-at="2020-04-25T15:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_Test -->
+        <test-method status="PASS" signature="D_Test()[pri:0, instance:test.java.NewTest@23ceabc1]" name="D_Test" duration-ms="2" started-at="2020-04-25T15:18:51Z" finished-at="2020-04-25T15:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D_Test -->
+        <test-method status="PASS" signature="E_Test()[pri:0, instance:test.java.NewTest@23ceabc1]" name="E_Test" duration-ms="3" started-at="2020-04-25T15:18:51Z" finished-at="2020-04-25T15:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E_Test -->
+      </class> <!-- test.java.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

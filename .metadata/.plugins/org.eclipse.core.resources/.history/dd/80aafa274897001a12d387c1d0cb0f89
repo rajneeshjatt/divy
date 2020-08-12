@@ -1,0 +1,38 @@
+package Academy;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class HomapageTest {
+	
+	LandingPageObj lp;
+	WebDriver driver;
+	
+	@Test
+	public void closingNewsPopup() {
+		
+		System.setProperty("webdriver.chrome.driver", "H:\\DivyAutomation\\ToolsNlibrary\\chromedriver.exe");
+
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		lp = new LandingPageObj(driver);
+		lp.closeNewsletterPopup();
+		
+		
+		
+		System.out.println("Hello World");
+	}
+
+	
+//	@Test
+//	public void testingmvn1() {
+//		
+//		System.out.println("div");
+//	}
+
+
+}
